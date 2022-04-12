@@ -1,10 +1,14 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import LinkSection from '../components/LinkSection.astro';
-import SessionLink from '../components/SessionLink.astro';
-import tools from '../data/tools.json';
-import sessions from '../data/sessions.json';
-import Link from '../elements/Link.astro';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import LinkSection from '@components/LinkSection.astro';
+import SessionLink from '@components/SessionLink.astro';
+import tools from '@data/tools.json';
+import sessions from '@data/sessions.json';
+import Link from '@elements/Link.astro';
+import H2 from '@elements/H2.astro';
+import UL from '@elements/UL.astro';
+import P from '@elements/P.astro';
+import Section from '@elements/Section.astro';
 ---
 <BaseLayout title="Full Queue Developer">
 
@@ -12,27 +16,27 @@ import Link from '../elements/Link.astro';
     <span class="text-white text-3xl font-bold">Full Queue Developer</span>
   </h1>
 
-  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
+  <Section>
 
-    <p>
+    <P>
       I'm a coder who values beauty and thoughtfulness. I showcase my skills on <Link href="https://www.twitch.tv/fullqueuedeveloper">my Twitch stream</Link>, and upload the sessions to <Link href="https://www.youtube.com/channel/UCqJ4mrrpAXbzA-KaZ8f_aMg">my YouTube channel</Link> afterwards.
-    </p>
+    </P>
 
-  </div>
+  </Section>
 
-  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
-    <h2 class="text-xl text-violet-600 font-bold">Sessions</h2>
+  <Section>
+    <H2 class="text-xl text-violet-600 font-bold">Sessions</H2>
     <ul>
     {sessions.map((session) => (<li><SessionLink session={session}/></li>))}
     </ul>
-  </div>
+  </Section>
 
-  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
+  <Section>
     <LinkSection title="Current tools" data={tools}/>
-  </div>
+  </Section>
 
-  <!-- <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
+  <Section>
     I'm also interested in beautiful ergonomic keyboards. Read my <a href="/keyboard">Keyboard Story</a>.
-  </div> -->
+  </Section>
 
 </BaseLayout>

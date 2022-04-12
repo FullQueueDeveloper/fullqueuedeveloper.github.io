@@ -2,5 +2,7 @@
 const { items } = Astro.props;
 ---
 <ul class="list-square list-outside">
-<slot/>
+{
+  items.map(item => (<li class="text-violet-600">{item}</li>))
+}
 </ul>
