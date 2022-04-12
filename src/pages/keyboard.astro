@@ -31,7 +31,7 @@ let keyboardEpisodes = await Astro.glob('./keyboard/*.md');
 
     <List>
       {keyboardEpisodes.map(item => (
-          <ListItem><Link href={item.url}>{item.frontmatter.title}</Link></ListItem>
+        <ListItem><Link href={item.url}>{item.frontmatter.title}</Link></ListItem>
       ))}
     </List>
   </Section>
@@ -41,7 +41,7 @@ let keyboardEpisodes = await Astro.glob('./keyboard/*.md');
 
     <List>
       {equipment.map(item => (
-          <ListItem><Link href={item.url}>{item.title}</Link></ListItem>
+        <ListItem><Link href={item.url}>{item.title}</Link></ListItem>
       ))}
     </List>
   </Section>
