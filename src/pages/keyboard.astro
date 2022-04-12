@@ -1,10 +1,14 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import LinkSection from '@components/LinkSection.astro';
 import tools from '@data/tools.json';
 import equipment from '@data/equipment.json';
 import H3 from '@elements/H3.astro';
 import P from '@elements/P.astro';
+import List from '@elements/List.astro';
+import ListItem from '@elements/ListItem.astro';
+import Link from '@elements/Link.astro';
+import Section from '@elements/Section.astro';
+import H2 from '@elements/H2.astro';
 let keyboardEpisodes = await Astro.glob('./keyboard/*.md');
 
 ---
@@ -14,24 +18,32 @@ let keyboardEpisodes = await Astro.glob('./keyboard/*.md');
     <span class="text-white text-3xl font-bold">Keyboard Story</span>
   </h1>
 
-  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
-
+  <Section>
     <H3>There's so many keyboards out there.</H3>
 
     <P>My journey started in Spring of 2021, when my wrists started hurting. For other folks out there with wrists, I would like to give you a map of the keyboards that I encountered. Hopefully this series of blog posts will help your wrists as well.
     </P>
-  </div>
+  </Section>
 
 
-  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
-    <LinkSection title="Episodes" data={keyboardEpisodes.map((ep) => ({"url": ep.url, "title": ep.frontmatter.title}))}>
+  <Section>
+    <H2>Episodes</H2>
 
-    </LinkSection>
-  </div>
+    <List>
+      {keyboardEpisodes.map(item => (
+          <ListItem><Link href={item.url}>{item.frontmatter.title}</Link></ListItem>
+      ))}
+    </List>
+  </Section>
 
-  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
-    <LinkSection title="Current equipment" data={equipment}/>
-  </div>
+  <Section>
+    <H2>Current equipment</H2>
 
+    <List>
+      {equipment.map(item => (
+          <ListItem><Link href={item.url}>{item.title}</Link></ListItem>
+      ))}
+    </List>
+  </Section>
 
 </BaseLayout>

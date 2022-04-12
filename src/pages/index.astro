@@ -1,12 +1,11 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import LinkSection from '@components/LinkSection.astro';
-import SessionLink from '@components/SessionLink.astro';
 import tools from '@data/tools.json';
 import sessions from '@data/sessions.json';
 import Link from '@elements/Link.astro';
 import H2 from '@elements/H2.astro';
-import UL from '@elements/UL.astro';
+import List from '@elements/List.astro';
+import ListItem from '@elements/ListItem.astro';
 import P from '@elements/P.astro';
 import Section from '@elements/Section.astro';
 ---
@@ -25,18 +24,21 @@ import Section from '@elements/Section.astro';
   </Section>
 
   <Section>
-    <H2 class="text-xl text-violet-600 font-bold">Sessions</H2>
-    <ul>
-    {sessions.map((session) => (<li><SessionLink session={session}/></li>))}
-    </ul>
+    <H2>Sessions</H2>
+    <List>
+    {sessions.map((session) => (<ListItem><SessionLink session={session}/></ListItem>))}
+    </List>
   </Section>
 
   <Section>
-    <LinkSection title="Current tools" data={tools}/>
+    <H2>Current tools</H2>
+    <List>
+    {tools.map((tool) => (<ListItem><Link href={tool.url}>{tool.title}</Link></ListItem>))}
+    </List>
   </Section>
 
   <Section>
-    I'm also interested in beautiful ergonomic keyboards. Read my <a href="/keyboard">Keyboard Story</a>.
+    I'm also interested in beautiful ergonomic keyboards. Read my <Link href="/keyboard">Keyboard Story</Link>.
   </Section>
 
 </BaseLayout>
