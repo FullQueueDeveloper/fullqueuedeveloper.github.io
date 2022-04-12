@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LinkSection from '../components/LinkSection.astro';
+import SessionLink from '../components/SessionLink.astro';
+import tools from '../data/tools.json';
+import sessions from '../data/sessions.json';
+import Link from '../elements/Link.astro';
+---
+<BaseLayout title="Full Queue Developer">
+
+  <h1 class="container mx-auto px-8 pt-4 my-4 sm:rounded max-w-prose">
+    <span class="text-white text-3xl font-bold">Full Queue Developer</span>
+  </h1>
+
+  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
+
+    <p>
+      I'm a coder who values beauty and thoughtfulness. I showcase my skills on <Link href="https://www.twitch.tv/fullqueuedeveloper">my Twitch stream</Link>, and upload the sessions to <Link href="https://www.youtube.com/channel/UCqJ4mrrpAXbzA-KaZ8f_aMg">my YouTube channel</Link> afterwards.
+    </p>
+
+  </div>
+
+  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
+    <h2 class="text-xl text-violet-600 font-bold">Sessions</h2>
+    <ul>
+    {sessions.map((session) => (<li><SessionLink session={session}/></li>))}
+    </ul>
+  </div>
+
+  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
+    <LinkSection title="Current tools" data={tools}/>
+  </div>
+
+  <!-- <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
+    I'm also interested in beautiful ergonomic keyboards. Read my <a href="/keyboard">Keyboard Story</a>.
+  </div> -->
+
+</BaseLayout>

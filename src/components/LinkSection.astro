@@ -1,0 +1,13 @@
+---
+import Link from '../elements/Link.astro';
+const { title, data } = Astro.props;
+
+---
+
+<div class="">
+<h2 class="text-xl text-violet-600 font-bold">{ title }</h2>
+
+<ul class="list-square list-outside">
+  {data.map(object => <li class="text-violet-600"><Link href={object.url}>{object.title}</Link></li>)}
+</ul>
+</div>

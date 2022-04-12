@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LinkSection from '../components/LinkSection.astro';
+import tools from '../data/tools.json'
+import equipment from '../data/equipment.json'
+let keyboardEpisodes = await Astro.glob('./keyboard/*.md');
+
+---
+<BaseLayout title="Keyboard Story">
+
+  <h1 class="container mx-auto px-8 pt-4 my-4 sm:rounded max-w-prose">
+    <span class="text-white text-3xl font-bold">Keyboard Story</span>
+  </h1>
+
+  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
+
+    <p class="pb-2 font-bold text-fuchsia-600">There's so many keyboards out there.</p>
+
+    <p class="pb-2">My journey started in Spring of 2021, when my wrists started hurting. For other folks out there with wrists, I would like to give you a map of the keyboards that I encountered. Hopefully this series of blog posts will help your wrists as well.
+  </p>
+  </div>
+
+
+  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
+    <LinkSection title="Episodes" data={keyboardEpisodes.map((ep) => ({"url": ep.url, "title": ep.frontmatter.title}))}>
+
+    </LinkSection>
+  </div>
+
+  <div class="container mx-auto px-8 my-4 sm:rounded bg-white max-w-prose">
+    <LinkSection title="Current equipment" data={equipment}/>
+  </div>
+
+
+</BaseLayout>
