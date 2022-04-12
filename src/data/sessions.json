@@ -2,8 +2,16 @@
   {
     "id": 1,
     "date": "2022-04-11",
-    "youtube_url": "https://www.youtube.com/watch?v=CwMl6D4DcHg",
+    "url": "https://www.youtube.com/watch?v=CwMl6D4DcHg",
     "title": "Symptom Tracker App",
     "description": "The designer sent me sketches of her new app idea! In this session, we start from a bare project and build out the UI for the 'Today' screen."
+  },
+  {
+    "id": 2,
+    "date": "2022-04-12",
+    "url": "https://www.twitch.tv/fullqueuedeveloper/clip/WrongRichRatCclamChamp-VvOmfVxBTHAmtA9f",
+    "title": "Symptoms: Checkin screen",
+    "description": "Today, we built out the Checkin screen, along with navigation from & to it. We stopped right before saving items to the database. Forgot to hit record, so only have a clip from twitch."
   }
+
 ]
