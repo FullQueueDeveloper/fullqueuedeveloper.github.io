@@ -1,6 +1,7 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
-title: Episode 3. Ergomech Sofle v2
+layout: "@layouts/MarkdownLayout.astro"
+title: Ergomech Sofle v2
+slug: ep3-sofle-v2
 ---
 
 # Episode 3. Ergomech Sofle v2
@@ -19,7 +20,7 @@ The Sofle v2 caught my eye for several reasons. It was column-stagger (opposed t
 
 Now I needed to get one.
 
-And I needed a pre-built one. I did not want to build one myself. I'm a programmer, I'm bad at interacting with the physical world. Also, my small apartment doesn't have room for sautering. And plus I would need sautering equipment.
+And I needed a pre-built one. I did not want to build one myself. I'm a programmer, I'm bad at interacting with the physical world. Also, my small apartment doesn't have room for soldering. And plus I would need new equipment.
 
 I googled and I searched for someone who sells pre-built Sofle V2's. It was hard to find! Then finally a reddit user recommended the services of another reddit user who builds keyboards!
 

@@ -1,6 +1,7 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
-title: Episode 6. Dreaming about future keyboards
+layout: "@layouts/MarkdownLayout.astro"
+title: Dreaming about future keyboards
+slug: ep6-dreaming
 ---
 
 # Episode 6. Dreaming about future keyboards
@@ -17,4 +18,8 @@ I'm honestly torn on buying even more keyboards. This one uses ZMK firmware inst
 
 ## Chocofi
 
-Someone on the BoardSource Discord posted a picture of their [Chocofi](https://github.com/pashutk/chocofi), which looks like a 3x5 Corne, but with deeper pinky stagger. However I probably will never sauter my own keyboard. I build software not hardware.
+Someone on the BoardSource Discord posted a picture of their [Chocofi](https://github.com/pashutk/chocofi), which looks like a 3&times;5 Corne, but with more generous pinky stagger. However I probably will never solder my own keyboard.
+
+## Conclusion
+
+I'm happy with what I have, and I keep my eye open for deeper cuts on the last columns to lessen pinky strain.

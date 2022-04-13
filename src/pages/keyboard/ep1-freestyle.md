@@ -1,6 +1,7 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
-title: Episode 1. Kinesis Freestyle
+layout: "@layouts/MarkdownLayout.astro"
+title: Kinesis Freestyle
+slug: ep1-freestyle
 ---
 
 # Episode 1. Kinesis Freestyle

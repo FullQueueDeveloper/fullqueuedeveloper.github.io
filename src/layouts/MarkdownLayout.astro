@@ -1,5 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const content = Astro.props;
+// console.log(content.content.slug);
+let currentSlug = content.content.slug;
+let keyboardEpisodes = await Astro.glob('../pages/keyboard/*.md');
+// console.log(keyboardEpisodes.map(e => (e.frontmatter)));
+
+
+let currentEpIndex = keyboardEpisodes.findIndex(element => element.frontmatter.slug === currentSlug);
+let prevEp = keyboardEpisodes[currentEpIndex - 1];
+let nextEp = keyboardEpisodes[currentEpIndex + 1];
+console.log(prevEp);
 ---
 
 <BaseLayout>
@@ -11,5 +22,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               prose-a:decoration-fuchsia-600 hover:prose-a:underline hover:prose-a:decoration-4
               ">
     <slot/>
+  </div>
+  <div class="container max-w-prose
+  sm:rounded
+  mx-auto px-8
+  content-center
+  items-stretch
+md:grid md:grid-cols-3
+  ">
+
+    <div class="text-cyan-200 font-bold pb-2 md:text-left">{prevEp && (<a href={prevEp.url}>&lsaquo; Previous<br/><span class="text-white">{prevEp.frontmatter.title}</span></a>)}</div>
+    <div class="text-cyan-200 font-bold pb-2 md:text-center"><a href="/keyboard">&#9650; <br class="hidden md:block"/><span class="text-white">Keyboard Story</span></a></div>
+    <div class="text-cyan-200 font-bold pb-2 md:text-right">{nextEp && (<a href={nextEp.url}>Next &rsaquo;<br/><span class="text-white">{nextEp.frontmatter.title}</span></a>)}</div>
+
   </div>
 </BaseLayout>

@@ -1,6 +1,7 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
-title: Episode 2. ZSA Moonlander
+layout: "@layouts/MarkdownLayout.astro"
+title: ZSA Moonlander
+slug: ep2-moonlander
 ---
 
 # Episode 2. ZSA Moonlander

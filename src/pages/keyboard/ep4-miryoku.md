@@ -1,6 +1,7 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
-title: Episode 4. Miryoku
+layout: "@layouts/MarkdownLayout.astro"
+title: Miryoku
+slug: ep4-miryoku
 ---
 
 # Episode 4. Miryoku layout
@@ -13,7 +14,7 @@ For convenience, here is the chart of the Miryoku layout:
 
 ## Reading the chart
 
-Miryoku collapses all keys into a 3x5+3 layout. It's so elegant!
+Miryoku collapses all keys into a 3&times;5+3 layout. It's so elegant!
 
 The glyph in black is the main glyph of the key. When tapping that key with no other modifiers, the keyboard sends the signal for the main glyph.
 
@@ -31,4 +32,4 @@ It didn't happen overnight! I kept the chart open on my iPad for easy reference.
 
 ## My fork
 
-Miryoku is fantastic, but I did make a few edits. My QMK fork is at [github.com/FullQueueDeveloper/qmk_firmware](https://github.com/FullQueueDeveloper/qmk_firmware). It has a `fullqueuedeveloper` branch the `fullqueuedeveloper` keymap for the `crkbd` folder (Corne keyboard). The `README.md` has more information about my take on Miryoku.
+Miryoku is fantastic, but I did make a few edits. My QMK fork is on GitHub at [github.com/FullQueueDeveloper/qmk_firmware](https://github.com/FullQueueDeveloper/qmk_firmware). It has a `fullqueuedeveloper` branch the `fullqueuedeveloper` keymap for the `crkbd` folder (Corne keyboard). The `README.md` has more information about my take on Miryoku.
