@@ -1,6 +1,7 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
-title: Episode 0. Apple Magic Keyboard
+layout: "@layouts/MarkdownLayout.astro"
+title: Apple Magic Keyboard
+slug: ep0-magic
 ---
 
 # Episode 0. Apple Magic Keyboard
