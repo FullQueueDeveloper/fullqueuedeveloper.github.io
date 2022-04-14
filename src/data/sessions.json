@@ -31,7 +31,7 @@
   {
     "id": "4",
     "date": "2022-04-14",
-    "title": "Saving checkins and showing them on Today screen"
+    "title": "Saving checkins and showing them on Today screen",
     "url": "https://youtu.be/ToI2duGqSY8",
     "description": "We show checkins on Today screen, and store them in database when tapping Done on the Today screen. Also some clean up!"
   }
