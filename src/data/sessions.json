@@ -34,5 +34,12 @@
     "title": "Saving checkins and showing them on Today screen",
     "url": "https://youtu.be/ToI2duGqSY8",
     "description": "We show checkins on Today screen, and store them in database when tapping Done on the Today screen. Also some clean up!"
+  },
+  {
+    "id": "5",
+    "date": "2022-04-15",
+    "title": "Summary screen, start to finish",
+    "url": "https://www.youtube.com/watch?v=1HIm8M9CbeU",
+    "description": "We build out the UI and the backing database requests for the summary screen"
   }
 ]
