@@ -19,16 +19,22 @@ import SessionLink from '@components/SessionLink.astro';
   <Section>
 
     <P>
-      I'm a coder who values beauty and thoughtfulness. I showcase my skills on <Link href="https://www.twitch.tv/fullqueuedeveloper">my Twitch stream</Link>, and upload the sessions to <Link href="https://www.youtube.com/channel/UCqJ4mrrpAXbzA-KaZ8f_aMg">my YouTube channel</Link> afterwards.
+      I'm a coder who values beauty and thoughtfulness. I have over 15 years professional experience.
     </P>
-
+    <P>I showcase my skills on <Link href="https://www.twitch.tv/fullqueuedeveloper">my Twitch stream</Link>, and upload the sessions to <Link href="https://www.youtube.com/channel/UCqJ4mrrpAXbzA-KaZ8f_aMg">my YouTube channel</Link> afterwards. Follow on <Link href="https://twitter.com/fullqueuede">Twitter</Link> for stream notifications.
+    </P>
   </Section>
 
   <Section>
-    <H2>Sessions</H2>
+    <H2>Current projects</H2>
     <List>
-    {sessions.map((session) => (<ListItem><SessionLink session={session}/></ListItem>))}
+      <ListItem>Symptom tracking app (not yet published)</ListItem>
     </List>
+  </Section>
+
+  <Section>
+    <H2>Streaming schedule</H2>
+    <P>Every weekday from 2 PM Eastern Time</P>
   </Section>
 
   <Section>
