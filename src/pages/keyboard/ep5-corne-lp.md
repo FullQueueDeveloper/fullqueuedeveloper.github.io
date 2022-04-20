@@ -52,9 +52,9 @@ And then BoardSource reveals a new purple case. And it looks so pretty and so pu
 
 This is the perfect time to get a backup.
 
-Also I get their Purpz switches, since the Choc Reds started to feel a little heavy.
-
 I buy it.
+
+Also I purchased their Purpz switches, since the Choc Reds started to feel a little heavy.
 
 The Purpz switches feel so good, especially combined with Work Louder's [Blind keycaps](https://worklouder.cc/shop/wrk-blind/).
 
