@@ -28,8 +28,16 @@ For example, to type `!`, I long-press the return key on my right hand, which ac
 
 ## Learning it
 
-It didn't happen overnight! I kept the chart open on my iPad for easy reference. I would say after about three weeks, I was comfortable enough to know for sure I was never going back.
+It didn't happen overnight! I kept the chart open on my iPad for easy reference. It wasn't easy, and I sent several messages accidentally on Slack or Zoom. I would say after about three weeks, I was comfortable enough to know for sure I was never going back.
+
+And after learning Miryoku on the Sofle v2, all those  keys that were outside the 3&times;5+3 layout felt so extra, so unnecessary.
 
 ## My fork
 
 Miryoku is fantastic, but I did make a few edits. My QMK fork is on GitHub at [github.com/FullQueueDeveloper/qmk_firmware](https://github.com/FullQueueDeveloper/qmk_firmware). It has a `fullqueuedeveloper` branch the `fullqueuedeveloper` keymap for the `crkbd` folder (Corne keyboard). The `README.md` has more information about my take on Miryoku.
+
+## Conclusion
+
+Miryoku opens up new possibilities. It shows how a 3&times;5+3 layout is possible. It's so elegant. It makes me happy.
+
+

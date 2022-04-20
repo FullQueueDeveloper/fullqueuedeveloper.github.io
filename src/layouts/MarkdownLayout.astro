@@ -1,16 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 const content = Astro.props;
-// console.log(content.content.slug);
+
 let currentSlug = content.content.slug;
 let keyboardEpisodes = await Astro.glob('../pages/keyboard/*.md');
-// console.log(keyboardEpisodes.map(e => (e.frontmatter)));
+
 
 
 let currentEpIndex = keyboardEpisodes.findIndex(element => element.frontmatter.slug === currentSlug);
 let prevEp = keyboardEpisodes[currentEpIndex - 1];
 let nextEp = keyboardEpisodes[currentEpIndex + 1];
-console.log(prevEp);
+
 ---
 
 <BaseLayout>

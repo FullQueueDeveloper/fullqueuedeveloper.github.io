@@ -6,7 +6,7 @@ slug: ep3-sofle-v2
 
 # Episode 3. Ergomech Sofle v2
 
-I read a lot of Reddit posts in r/mechanicalkeyboads, r/ergomechkeyboads, r/olkbd. I learned that the Moonlander's ortholinear layout doesn't match the different lengths of human fingers. I learned about column-stagger vs row-stagger.
+I read a lot of Reddit posts in [r/mechanicalkeyboards](https://reddit.com/r/mechanicalkeyboards), [r/ergomechkeyboards](https://reddit.com/r/ergomechkeyboards), [r/olkb](https://reddit.com/r/olkb). I learned that the Moonlander's ortholinear layout doesn't match the different lengths of human fingers. I learned about column-stagger vs row-stagger.
 
 On these subreddits, I learned about open source keyboards. Someone will design a keyboard and post to GitHub the specifications to print the components of the keyboard. So anyone can build the keyboard for themselves.
 
@@ -15,6 +15,8 @@ I also found [splitkbcompare](https://jhelvy.shinyapps.io/splitkbcompare/) a web
 One of these keyboards was the Sofle v2.
 
 The Sofle v2 caught my eye for several reasons. It was column-stagger (opposed to row-stagger or ortholinear). It has so many keys! In my head, I mapped out where all the keys would be. It had a number row. It had plenty of thumb buttons, I figured a few of them could be `Control`, `Command`, `Shift` and `Option`. It also has tow rotary knobs! I mapped one of them to volume and the other knob to switch between Mac and Windows.
+
+All those keys made me feel safe. That I would definitely find some layout that would work for me.
 
 ## Acquiring a Sofle v2
 
@@ -40,8 +42,10 @@ Maybe this is why folks are reluctant to ship pre-built keyboards to customers. 
 
 ## Usage
 
-The Sofle v2 felt amazing! The Gateron Yellow keyswitches felt so satisfying.
+The Sofle v2 felt amazing! The Gateron Yellow keyswitches felt so satisfying. I used one of the rotors for volume, and the other to change between layouts.
+
+As time went on, the custom aluminum case got to be too tall for my wrists. It's well-made, but doesn't feel good to me. I needed something lower in profile.
 
 ## Conclusion
 
-The Sofle v2 was a nice transition to columnar stagger. With the many keys that it has, I was able to experiment with different layouts, and try out the Miryoku layout.
+The Sofle v2 was a nice transition to columnar stagger. With the many keys that it has, I was able to experiment with different layouts. I settled into the [Miryoku layout](/keyboard/ep4-miryoku) which I discuss in the next episode.
