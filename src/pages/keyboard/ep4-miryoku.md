@@ -28,9 +28,9 @@ For example, to type `!`, I long-press the return key on my right hand, which ac
 
 ## Learning it
 
-It didn't happen overnight! I kept the chart open on my iPad for easy reference. It wasn't easy, and I sent several messages accidentally on Slack or Zoom. I would say after about three weeks, I was comfortable enough to know for sure I was never going back.
+It didn't happen overnight! I kept the chart open on my iPad for quick reference. It wasn't easy, and I sent several messages accidentally on Slack or Zoom. I would say after about three weeks, I was comfortable enough to know for sure I was never going back.
 
-And after learning Miryoku on the Sofle v2, all those  keys that were outside the 3&times;5+3 layout felt so extra, so unnecessary.
+And after learning Miryoku on the Sofle v2, all those  keys that were outside the 3&times;5+3 layout felt so extra, so unnecessary. Clutter.
 
 ## My fork
 
