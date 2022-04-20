@@ -58,6 +58,7 @@ I buy it.
 
 The Purpz switches feel so good, especially combined with Work Louder's [Blind keycaps](https://worklouder.cc/shop/wrk-blind/).
 
+Both times I got the 'Elite-C' to connect to my laptop with USB-C. And that's worked out great for me.
 
 ## Conclusion
 
