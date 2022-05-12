@@ -1,0 +1,24 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Section from '@elements/Section.astro';
+import H3 from '@elements/H3.astro';
+import Link from '@elements/Link.astro';
+---
+
+
+<BaseLayout title="YouTube channel">
+
+<h1 class="container mx-auto px-8 pt-4 my-4 sm:rounded max-w-prose">
+  <span class="text-white text-3xl font-bold">YouTube channel</span>
+</h1>
+
+<Section>
+<Link href="https://www.youtube.com/channel/UCqJ4mrrpAXbzA-KaZ8f_aMg">https://www.youtube.com/channel/UCqJ4mrrpAXbzA-KaZ8f_aMg</Link>
+</Section>
+</BaseLayout>
+
+<script>
+window.onload = function() {
+  window.location.href = "https://www.youtube.com/channel/UCqJ4mrrpAXbzA-KaZ8f_aMg";
+}
+</script>
