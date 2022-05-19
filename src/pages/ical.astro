@@ -1,0 +1,24 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Section from '@elements/Section.astro';
+import H3 from '@elements/H3.astro';
+import Link from '@elements/Link.astro';
+---
+
+
+<BaseLayout title="iCal Calendar link">
+
+<h1 class="container mx-auto px-8 pt-4 my-4 sm:rounded max-w-prose">
+  <span class="text-white text-3xl font-bold">iCal Calendar link</span>
+</h1>
+
+<Section>
+<Link href="webcal://p41-caldav.icloud.com/published/2/MjA1NDYxNjQwMTMyMDU0NoJpIuCToGGes2f8Qq8Nhy9hq3cM6hgm91tsbUg4N2AiXr_psiv6jIjGyt-6KqvDgzPG5_qH20JztZkMytmk2gQ">webcal://p41-caldav.icloud.com/published/2/MjA1NDYxNjQwMTMyMDU0NoJpIuCToGGes2f8Qq8Nhy9hq3cM6hgm91tsbUg4N2AiXr_psiv6jIjGyt-6KqvDgzPG5_qH20JztZkMytmk2gQ</Link>
+</Section>
+</BaseLayout>
+
+<script>
+window.onload = function() {
+  window.location.href = "webcal://p41-caldav.icloud.com/published/2/MjA1NDYxNjQwMTMyMDU0NoJpIuCToGGes2f8Qq8Nhy9hq3cM6hgm91tsbUg4N2AiXr_psiv6jIjGyt-6KqvDgzPG5_qH20JztZkMytmk2gQ";
+}
+</script>
