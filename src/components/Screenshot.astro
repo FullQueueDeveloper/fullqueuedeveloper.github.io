@@ -1,0 +1,10 @@
+---
+const { imageURL, title } = Astro.props
+---
+<div class="container">
+  <div class="text-white font-bold text-xl">{title}</div>
+  <div class="">
+     <a href={imageURL}><img src={imageURL} title={title} class=" w-24" /></a>
+     <div class="text-white sm:col-span-4"><slot /></div>
+  </div>
+</div>

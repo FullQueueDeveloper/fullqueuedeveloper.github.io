@@ -4,6 +4,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import tools from '@data/tools.json';
 
 import Link from '@elements/Link.astro';
+import H1 from '@elements/H1.astro';
 import H2 from '@elements/H2.astro';
 import List from '@elements/List.astro';
 import ListItem from '@elements/ListItem.astro';
@@ -12,9 +13,7 @@ import Section from '@elements/Section.astro';
 ---
 <BaseLayout title="Full Queue Developer">
 
-  <h1 class="container mx-auto px-8 pt-4 my-4 sm:rounded max-w-prose">
-    <span class="text-white text-3xl font-bold">Full Queue Developer</span>
-  </h1>
+  <H1>Full Queue Developer</H1>
 
   <Section>
     <P>
@@ -34,6 +33,9 @@ import Section from '@elements/Section.astro';
   <Section>
     <H2>Current projects</H2>
     <List>
+
+      <ListItem><Link href="/haptics-studio">Haptics Studio</Link> The best way to discover and test iPhone haptics in the palm of your hand!</ListItem>
+
       <ListItem><Link href="https://github.com/FullQueueDeveloper/Sh.git">Sh</Link> The best way to run shell commands from Swift</ListItem>
 
       <ListItem><Link href="https://github.com/FullQueueDeveloper/ShXcrun.git">ShXcrun</Link> Swift wrapper around `xcodebuild` and other `xcrun` tools</ListItem>

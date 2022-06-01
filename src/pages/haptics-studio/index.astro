@@ -1,0 +1,64 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+
+import Link from '@elements/Link.astro';
+import H3 from '@elements/H3.astro';
+import H2 from '@elements/H2.astro';
+import H1 from '@elements/H1.astro';
+import List from '@elements/List.astro';
+import ListItem from '@elements/ListItem.astro';
+import P from '@elements/P.astro';
+import Section from '@elements/Section.astro';
+import Screenshot from '@components/Screenshot.astro';
+---
+<BaseLayout title="Haptics Studio">
+
+  <H1>Haptics Studio</H1>
+
+  <div class="container mx-auto px-8 my-4 sm:rounded max-w-prose ">
+
+  <p class="text-2xl text-cyan-200 font-bold">
+    The best way to discover iPhone haptics.
+  </p>
+
+  </div>
+
+
+  <div class="container mx-auto px-8 my-4 sm:rounded max-w-prose sm:grid sm:grid-cols-3 sm:gap-2">
+
+    <Screenshot title="Sliders" imageURL="/A.png">
+      Easily adjust settings to get the right feel.
+    </Screenshot>
+
+    <Screenshot title="Save slots" imageURL="/B.png">
+      A different color accents each save slot.
+    </Screenshot>
+
+    <Screenshot title="Built-ins" imageURL="/Built-in.png">
+      Try out Apple's built-in haptic patterns.
+    </Screenshot>
+  </div>
+
+
+
+
+  <Section>
+   <H2>Live development</H2>
+    <P>Haptic Studio is built entirely live on <Link href="https://www.twitch.tv/FullQueueDeveloper">my Twitch stream, twitch.tv/FullQueueDeveloper</Link>. If you miss a session, no worries, they are uploaded the sessions to <Link href="https://www.youtube.com/channel/UCqJ4mrrpAXbzA-KaZ8f_aMg">my YouTube channel</Link> afterwards.
+    </P>
+
+    <P>You could follow along the videos and copy the source from the stream and have a working app. Or you could download the app from the <Link href="">App Store</Link> for your convenience.
+    </P>
+
+    <P>Haptics Studio is built entirely with SwiftUI.</P>
+  </Section>
+
+  <Section>
+    <List>
+
+    <ListItem>Download from the <Link href="/haptics-studio/privacy-policy">App Store</Link></ListItem>
+
+    <ListItem><Link href="/haptics-studio/privacy-policy">Privacy Policy</Link></ListItem>
+    </List>
+  </Section>
+</BaseLayout>
