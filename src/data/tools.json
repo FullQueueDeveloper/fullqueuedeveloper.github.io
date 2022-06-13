@@ -1,30 +1,57 @@
 [
   {
     "title": "Swift",
-    "url": "https://swift.org"
+    "url": "https://swift.org",
+    "tags": ["language", "open-source", "ios"]
+  },
+  {
+    "title": "Kotlin",
+    "url": "https://kotlinlang.org",
+    "tags": ["language", "open-source", "android"]
   },
   {
     "url": "https://vapor.codes",
-    "title": "Vapor"
+    "title": "Vapor",
+    "tags": ["web", "server", "open-source"]
   },
   {
     "url": "https://github.com/groue/GRDB.swift",
-    "title": "GRDB"
+    "title": "GRDB",
+    "tags": ["open-source", "ios", "persistence", "sqlite"]
   },
   {
     "url": "https://github.com/yonaskolb/XcodeGen",
-    "title": "XcodeGen"
+    "title": "XcodeGen",
+    "tags": ["open-source", "iOS"]
   },
   {
     "url": "https://astro.build",
-    "title": "Astro"
+    "title": "Astro",
+    "tags": ["web", "open-source", "javascript"]
   },
   {
     "url": "https://tailwindcss.com",
-    "title": "Tailwind"
+    "title": "Tailwind",
+    "tags": ["web", "open-source"]
   },
   {
     "url": "https://git-tower.com",
-    "title": "Git Tower"
+    "title": "Git Tower",
+    "tags": ["git", "paid"]
+  },
+  {
+    "url": "https://developer.apple.com/xcode/",
+    "title": "Xcode",
+    "tags": ["ios", "editor"]
+  },
+  {
+    "url": "https://developer.android.com/studio",
+    "title": "Android Studio",
+    "tags": ["android", "editor", "kotlin"]
+  },
+  {
+    "url": "https://nova.app",
+    "title": "Nova",
+    "tags": ["ios", "swift", "web", "editor", "javascript"]
   }
 ]
