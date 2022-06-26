@@ -1,3 +1,23 @@
-<ul class="list-square list-outside">
+---
+const { level } = Astro.props;
+
+function classForLevel(level) {
+  if (level) {
+    if ( level === "0") {
+      return "list-square";
+    } else if (level === "1") {
+      return "ml-8  list-disc";
+    }
+  } else {
+    return "list-square";
+  }
+}
+
+const listClass = classForLevel(level) + " list-outside";
+console.log(listClass);
+
+---
+
+<ul class={listClass}>
 <slot/>
 </ul>
