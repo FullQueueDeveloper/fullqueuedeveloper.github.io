@@ -1,7 +1,7 @@
 ---
 const { level } = Astro.props;
 
-function classForLevel(level) {
+function classForLevel(level: string) {
   if (level) {
     if ( level === "0") {
       return "list-square";
