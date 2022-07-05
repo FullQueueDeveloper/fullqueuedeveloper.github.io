@@ -64,5 +64,11 @@
     "title": "Nova",
     "tags": ["ios", "swift", "web", "editor", "javascript"],
     "projects": ["underway", "fullqueuedeveloper"]
+  },
+  {
+    "url": "https://github.com/FullQueueDeveloper/Sh.git",
+    "title": "Sh",
+    "tags": ["ios", "swift"],
+    "projects": ["underway", "haptics-studio"]
   }
 ]

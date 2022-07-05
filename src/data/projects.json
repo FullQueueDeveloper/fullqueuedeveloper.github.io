@@ -10,5 +10,9 @@
   "fullqueuedeveloper": {
     "title": "Full Queue Developer",
     "url": "https://fullqueuedeveloper.com"
+  },
+  "sh": {
+    "title": "Sh",
+    "url": "https://github.com/FullQueueDeveloper/Sh.git"
   }
 }

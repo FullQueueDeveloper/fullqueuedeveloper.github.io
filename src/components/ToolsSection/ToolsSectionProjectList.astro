@@ -14,7 +14,8 @@ let combined = tool.projects
 var last = combined.pop();
 
 ---
-<P>
+
+<span class="w-2"></span>
   {
     combined
       .map(item => <>
@@ -25,4 +26,4 @@ var last = combined.pop();
   {
     <SecondaryLink href={last.url}>{last.title}</SecondaryLink>
   }
-</P>
+
