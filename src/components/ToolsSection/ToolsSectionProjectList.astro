@@ -1,0 +1,28 @@
+---
+import SecondaryLink from '@elements/SecondaryLink.astro';
+import projects from '@data/projects.json';
+import P from '@elements/P.astro';
+
+const { tool } = Astro.props;
+
+let combined = tool.projects
+  .map( (project) => ({
+    "title": projects[project].title,
+    "url": projects[project].url
+  })
+);
+var last = combined.pop();
+
+---
+<P>
+  {
+    combined
+      .map(item => <>
+        <SecondaryLink href={item.url}>{item.title}</SecondaryLink>,
+      </>)
+  }
+
+  {
+    <SecondaryLink href={last.url}>{last.title}</SecondaryLink>
+  }
+</P>

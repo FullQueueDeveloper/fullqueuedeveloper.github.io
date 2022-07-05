@@ -2,56 +2,67 @@
   {
     "title": "Swift",
     "url": "https://swift.org",
-    "tags": ["language", "open-source", "ios"]
+    "tags": ["language", "open-source", "ios"],
+    "projects": ["underway", "haptics-studio"]
   },
   {
     "title": "Kotlin",
     "url": "https://kotlinlang.org",
-    "tags": ["language", "open-source", "android"]
+    "tags": ["language", "open-source", "android"],
+    "projects": ["underway"]
   },
   {
     "url": "https://vapor.codes",
     "title": "Vapor",
-    "tags": ["web", "server", "open-source"]
+    "tags": ["web", "server", "open-source"],
+    "projects": ["underway"]
   },
   {
     "url": "https://github.com/groue/GRDB.swift",
     "title": "GRDB",
-    "tags": ["open-source", "ios", "persistence", "sqlite"]
+    "tags": ["open-source", "ios", "persistence", "sqlite"],
+    "projects": ["underway"]
   },
   {
     "url": "https://github.com/yonaskolb/XcodeGen",
     "title": "XcodeGen",
-    "tags": ["open-source", "iOS"]
+    "tags": ["open-source", "iOS"],
+    "projects": ["underway", "haptics-studio"]
   },
   {
     "url": "https://astro.build",
     "title": "Astro",
-    "tags": ["web", "open-source", "javascript"]
+    "tags": ["web", "open-source", "javascript"],
+    "projects": ["underway", "fullqueuedeveloper"]
   },
   {
     "url": "https://tailwindcss.com",
     "title": "Tailwind",
-    "tags": ["web", "open-source"]
+    "tags": ["web", "open-source"],
+    "projects": ["underway", "fullqueuedeveloper"]
   },
   {
     "url": "https://git-tower.com",
     "title": "Git Tower",
-    "tags": ["git", "paid"]
+    "tags": ["git", "paid"],
+    "projects": ["underway", "haptics-studio", "fullqueuedeveloper"]
   },
   {
     "url": "https://developer.apple.com/xcode/",
     "title": "Xcode",
-    "tags": ["ios", "editor"]
+    "tags": ["ios", "editor"],
+    "projects": ["underway", "haptics-studio"]
   },
   {
     "url": "https://developer.android.com/studio",
     "title": "Android Studio",
-    "tags": ["android", "editor", "kotlin"]
+    "tags": ["android", "editor", "kotlin"],
+    "projects": ["underway"]
   },
   {
     "url": "https://nova.app",
     "title": "Nova",
-    "tags": ["ios", "swift", "web", "editor", "javascript"]
+    "tags": ["ios", "swift", "web", "editor", "javascript"],
+    "projects": ["underway", "fullqueuedeveloper"]
   }
 ]

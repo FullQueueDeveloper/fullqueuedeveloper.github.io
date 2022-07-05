@@ -1,0 +1,25 @@
+---
+import tools from '@data/tools.json';
+import projects from '@data/projects.json';
+
+import Link from '@elements/Link.astro';
+import ToolsSectionProjectList from '@components/ToolsSection/ToolsSectionProjectList.astro';
+import SecondaryLink from '@elements/SecondaryLink.astro';
+import H2 from '@elements/H2.astro';
+import List from '@elements/List.astro';
+import ListItem from '@elements/ListItem.astro';
+import Section from '@elements/Section.astro';
+---
+ <Section>
+    <H2>Current tools</H2>
+    <List>
+    {
+      tools.map((tool) => (
+        <ListItem>
+          <Link href={tool.url}>{tool.title}</Link>
+          <ToolsSectionProjectList tool={tool}/>
+        </ListItem>
+      ))
+    }
+    </List>
+  </Section>

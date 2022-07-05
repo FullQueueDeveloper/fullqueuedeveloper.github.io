@@ -1,9 +1,9 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 
-import tools from '@data/tools.json';
 
 import Link from '@elements/Link.astro';
+import ToolsSection from '@components/ToolsSection/ToolsSection.astro';
 import H1 from '@elements/H1.astro';
 import H2 from '@elements/H2.astro';
 import List from '@elements/List.astro';
@@ -53,16 +53,7 @@ import Section from '@elements/Section.astro';
     </List>
   </Section>
 
-  <Section>
-    <H2>Current tools</H2>
-    <List>
-    {
-      tools.map((tool) => (
-        <ListItem><Link href={tool.url}>{tool.title}</Link></ListItem>
-      ))
-    }
-    </List>
-  </Section>
+  <ToolsSection />
 
   <Section>
     <P>I'm also interested in beautiful ergonomic keyboards. Read my <Link href="/keyboard">Keyboard Story</Link>.</P>
