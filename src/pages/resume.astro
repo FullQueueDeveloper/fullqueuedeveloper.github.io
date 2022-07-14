@@ -5,12 +5,15 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import Link from '@elements/Link.astro';
 import H1 from '@elements/H1.astro';
 import H2 from '@elements/H2.astro';
+import H2Meta from '@elements/meta/H2.astro';
 import H3 from '@elements/H3.astro';
 import H4 from '@elements/H4.astro';
 import List from '@elements/List.astro';
 import ListItem from '@elements/ListItem.astro';
+import ListItemMeta from '@elements/meta/ListItem.astro';
 import P from '@elements/P.astro';
 import Section from '@elements/Section.astro';
+import SectionMeta from '@elements/meta/Section.astro';
 import SecondaryLink from '@elements/SecondaryLink.astro';
 
 import ToolsSection from '@components/ToolsSection/ToolsSection.astro';
@@ -19,8 +22,26 @@ import ToolsSection from '@components/ToolsSection/ToolsSection.astro';
 
   <H1>Resume</H1>
 
+
+
+  <SectionMeta>
+    <H2Meta>Contents</H2Meta>
+
+    <List>
+      <ListItemMeta>Goal</ListItemMeta>
+      <ListItemMeta>Press coverage</ListItemMeta>
+      <ListItemMeta>Published apps</ListItemMeta>
+      <ListItemMeta>Merged open source pull requests</ListItemMeta>
+      <ListItemMeta>Testimonials</ListItemMeta>
+      <ListItemMeta>Reviews</ListItemMeta>
+      <ListItemMeta>Current tools</ListItemMeta>
+      <ListItemMeta>Skills</ListItemMeta>
+      <ListItemMeta>Education</ListItemMeta>
+    </List>
+  </SectionMeta>
+
   <Section>
-    <H2>Goals</H2>
+    <H2>Goal</H2>
 
     <P>A role that combines my creativity and expertise</P>
   </Section>
@@ -28,7 +49,7 @@ import ToolsSection from '@components/ToolsSection/ToolsSection.astro';
   <Section>
     <H2>Press coverage</H2>
 
-    <H4>Publications that have highlighted my work</H4>
+    <P>Publications that have highlighted my work</P>
 
     <List>
       <ListItem>
