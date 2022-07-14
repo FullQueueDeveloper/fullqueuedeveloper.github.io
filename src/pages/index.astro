@@ -2,8 +2,11 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 
 
-import Link from '@elements/Link.astro';
 import ToolsSection from '@components/ToolsSection/ToolsSection.astro';
+import ProjectsSection from '@components/ProjectsSection.astro';
+
+import Link from '@elements/Link.astro';
+
 import H1 from '@elements/H1.astro';
 import H2 from '@elements/H2.astro';
 import List from '@elements/List.astro';
@@ -32,26 +35,7 @@ import Section from '@elements/Section.astro';
     <P>For stream updates, follow on <Link href="https://twitter.com/FullQueuDev">Twitter</Link> or subscribe with <Link href="/ical">iCal</Link></P>
   </Section>
 
-  <Section>
-    <H2>Current projects</H2>
-    <List>
-
-      <ListItem><Link href="/haptics-studio">Haptics Studio</Link> The best way to discover and test iPhone haptics in the palm of your hand!</ListItem>
-
-      <ListItem><Link href="https://underway.nyc">Underway NYC</Link> Real-time data to make decisions while on the way. Underway NYC is for the here and now underground. </ListItem>
-
-      <ListItem>
-        <Link href="https://github.com/FullQueueDeveloper/Sh.git">Sh</Link> The best way to run shell commands from Swift
-      </ListItem>
-    </List>
-    <List level="1">
-      <ListItem><Link href="https://github.com/FullQueueDeveloper/ShXcrun.git">ShXcrun</Link> Swift wrapper around `xcodebuild` and other `xcrun` tools</ListItem>
-
-      <ListItem><Link href="https://github.com/FullQueueDeveloper/ShGit.git">ShGit</Link> Swift wrapper around Git, built with Sh</ListItem>
-
-      <ListItem><Link href="https://github.com/FullQueueDeveloper/Sh1Password.git">Sh1Password</Link> Swift wrapper around 1Password's CLI v2, built with Sh</ListItem>
-    </List>
-  </Section>
+  <ProjectsSection />
 
   <ToolsSection />
 

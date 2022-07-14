@@ -3,6 +3,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 
 
 import Link from '@elements/Link.astro';
+import LinkMeta from '@elements/meta/Link.astro';
 import H1 from '@elements/H1.astro';
 import H2 from '@elements/H2.astro';
 import H2Meta from '@elements/meta/H2.astro';
@@ -17,39 +18,38 @@ import SectionMeta from '@elements/meta/Section.astro';
 import SecondaryLink from '@elements/SecondaryLink.astro';
 
 import ToolsSection from '@components/ToolsSection/ToolsSection.astro';
+import ProjectsSection from '@components/ProjectsSection.astro';
 ---
 <BaseLayout title="Full Queue Developer Resume">
 
   <H1>Resume</H1>
 
+  <Section>
+    <H2>Goal</H2>
 
+    <P>A role that combines my creativity and my expertise</P>
+  </Section>
 
   <SectionMeta>
     <H2Meta>Contents</H2Meta>
 
     <List>
-      <ListItemMeta>Goal</ListItemMeta>
-      <ListItemMeta>Press coverage</ListItemMeta>
-      <ListItemMeta>Published apps</ListItemMeta>
-      <ListItemMeta>Merged open source pull requests</ListItemMeta>
-      <ListItemMeta>Testimonials</ListItemMeta>
-      <ListItemMeta>Reviews</ListItemMeta>
-      <ListItemMeta>Current tools</ListItemMeta>
-      <ListItemMeta>Skills</ListItemMeta>
-      <ListItemMeta>Education</ListItemMeta>
+      <ListItemMeta><LinkMeta href="/">Press coverage</LinkMeta></ListItemMeta>
+      <ListItemMeta><LinkMeta href="/">Published projects</LinkMeta></ListItemMeta>
+      <ListItemMeta><LinkMeta href="/">Merged open source pull requests</LinkMeta></ListItemMeta>
+      <ListItemMeta><LinkMeta href="/">Testimonials</LinkMeta></ListItemMeta>
+      <ListItemMeta><LinkMeta href="/">Reviews</LinkMeta></ListItemMeta>
+      <ListItemMeta><LinkMeta href="/">Current tools</LinkMeta></ListItemMeta>
+      <ListItemMeta><LinkMeta href="/">Skills</LinkMeta></ListItemMeta>
+      <ListItemMeta><LinkMeta href="/">Education</LinkMeta></ListItemMeta>
     </List>
   </SectionMeta>
 
-  <Section>
-    <H2>Goal</H2>
-
-    <P>A role that combines my creativity and expertise</P>
-  </Section>
 
   <Section>
     <H2>Press coverage</H2>
 
-    <P>Publications that have highlighted my work</P>
+    <P>Publications highlighting my work</P>
 
     <List>
       <ListItem>
@@ -59,14 +59,12 @@ import ToolsSection from '@components/ToolsSection/ToolsSection.astro';
 
       </ListItem>
 
-
       <ListItem>
         <Link href="https://viewing.nyc/underway-nyc-app-shows-your-new-york-city-subway-lines-arrival-time-in-real-time/">Viewing NYC</Link>
         <div><SecondaryLink  href="https://underway.nyc">Project: Underway</SecondaryLink></div>
         <P>Enter Underway NYC, a new iOS App that removes all the extra features and bloat of the transit apps and simply
               shows
               you how many minutes it is until the next train at your station.</P>
-
       </ListItem>
 
       <ListItem>
@@ -94,10 +92,13 @@ import ToolsSection from '@components/ToolsSection/ToolsSection.astro';
   </Section>
 
   <Section>
-    <H2>Published apps</H2>
+    <H2>Published projects</H2>
 
 
   </Section>
+
+
+ <ProjectsSection />
 
   <Section>
     <H2>Merged open source pull requests</H2>

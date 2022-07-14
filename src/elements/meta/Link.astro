@@ -1,0 +1,9 @@
+---
+const { href } = Astro.props
+---
+<a class="
+  decoration-none
+  hover:underline hover:decoration-4 hover:decoration-cyan-200
+  font-semibold
+  "
+  href={href}><slot/>&nbsp;<span class="text-cyan-200">&rsaquo;</span></a>

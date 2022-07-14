@@ -20,7 +20,7 @@ var last = combined.pop();
   {
     combined
       .map(item => <>
-        <SecondaryLink href={item.url}>Project: {item.title}</SecondaryLink>,
+        <SecondaryLink href={item.url}>Project: {item.title}</SecondaryLink><span class="text-sm font-semibold text-gray-800" >, </span>
       </>)
   }
 
