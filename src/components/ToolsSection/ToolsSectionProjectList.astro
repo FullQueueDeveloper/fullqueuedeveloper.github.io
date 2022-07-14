@@ -16,14 +16,16 @@ var last = combined.pop();
 ---
 
 <span class="w-2"></span>
+<div>
   {
     combined
       .map(item => <>
-        <SecondaryLink href={item.url}>{item.title}</SecondaryLink>,
+        <SecondaryLink href={item.url}>Project: {item.title}</SecondaryLink>,
       </>)
   }
 
   {
-    <SecondaryLink href={last.url}>{last.title}</SecondaryLink>
+        <SecondaryLink href={last.url}>Project: {last.title}</SecondaryLink>
   }
 
+</div>
