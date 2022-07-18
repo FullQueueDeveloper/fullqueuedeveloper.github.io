@@ -10,10 +10,10 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@astrojs/compiler@^0.18.2":
-  version "0.18.2"
-  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-0.18.2.tgz#4a4d98233a69671eb95eef4f24e3b1e0fe2ebaf6"
-  integrity sha512-R2lOpaif3hDju2/sE6OrKvnTMgrcLRJw+jAVih9pLA2ATgy2EnhYMhflRk1vQ6+YwuhyL6Lj/dRJFXgB7r70eg==
+"@astrojs/compiler@^0.19.0":
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-0.19.0.tgz#ea25fea3ba59ce7734c2bcc65a5fd1e372329943"
+  integrity sha512-8nvyxZTfCXLyRmYfTttpJT6EPhfBRg0/q4J/Jj3/pNPLzp+vs05ZdktsY6QxAREaOMAnNEtSqcrB4S5DsXOfRg==
 
 "@astrojs/language-server@^0.13.4":
   version "0.13.4"
@@ -33,10 +33,10 @@
     vscode-languageserver-types "^3.16.0"
     vscode-uri "^3.0.2"
 
-"@astrojs/markdown-remark@^0.11.6":
-  version "0.11.6"
-  resolved "https://registry.yarnpkg.com/@astrojs/markdown-remark/-/markdown-remark-0.11.6.tgz#cfec8334664a7b6dea9865e5b32227161c78199b"
-  integrity sha512-UOhUWCn7ODUq+W9w6dPASzLQHBvuQuo0ZirC10Rhh3T34b2pOlrFhFKgUnlLnFEN8BQaR3P4oassk+OQwLGrKg==
+"@astrojs/markdown-remark@^0.11.7":
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/@astrojs/markdown-remark/-/markdown-remark-0.11.7.tgz#7d28c296e080e45f548a72830c066cfc676410eb"
+  integrity sha512-kiGQzE0X7NJOZhluyCvOKWaZomB+efx7MhESf5cLJsuTI4dvGxEZmL7kZVnuDO5d2gvyeIBkZiD64bndKyxSkw==
   dependencies:
     "@astrojs/micromark-extension-mdx-jsx" "^1.0.3"
     "@astrojs/prism" "^0.6.0"
@@ -648,14 +648,14 @@ ast-types@0.14.2, ast-types@^0.14.2:
   dependencies:
     tslib "^2.0.1"
 
-astro@^1.0.0-beta.8:
-  version "1.0.0-beta.70"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-1.0.0-beta.70.tgz#f6d7d8071d07d16b4a4002f946d6c7481c14c9e7"
-  integrity sha512-P3fgn6bv5lEcLj3LZ3b+5z6TC5eni93q4m5Y2Mn45/gKIr0Bb/1le3eqGcRfjp0bpKpaDomBufiOPWZjWnIBUg==
+astro@^1.0.0-beta.72:
+  version "1.0.0-beta.72"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-1.0.0-beta.72.tgz#e1ac870fc4fb91032b611ad574629b23a7257fba"
+  integrity sha512-OUuASTz+3OifE7tIESdJ4RO6yDZoZ7pDiQ9lsEIwhciBKXB9ezEvpbrYmHQr1dxBdwFUwvMFcOqR/H9b2KykQQ==
   dependencies:
-    "@astrojs/compiler" "^0.18.2"
+    "@astrojs/compiler" "^0.19.0"
     "@astrojs/language-server" "^0.13.4"
-    "@astrojs/markdown-remark" "^0.11.6"
+    "@astrojs/markdown-remark" "^0.11.7"
     "@astrojs/prism" "0.6.0"
     "@astrojs/telemetry" "^0.4.0"
     "@astrojs/webapi" "^0.12.0"
@@ -810,9 +810,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001335, caniuse-lite@^1.0.30001366:
-  version "1.0.30001366"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001366.tgz#c73352c83830a9eaf2dea0ff71fb4b9a4bbaa89c"
-  integrity sha512-yy7XLWCubDobokgzudpkKux8e0UOOnLHE6mlNJBzT3lZJz6s5atSEzjoL+fsCPkI0G8MP5uVdDx1ur/fXEWkZA==
+  version "1.0.30001367"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001367.tgz#2b97fe472e8fa29c78c5970615d7cd2ee414108a"
+  integrity sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw==
 
 ccount@^2.0.0:
   version "2.0.1"
@@ -1047,9 +1047,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.188:
-  version "1.4.189"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.189.tgz#4e5b221dc44e09e9dddc9abbc6457857dee7ba25"
-  integrity sha512-dQ6Zn4ll2NofGtxPXaDfY2laIa6NyCQdqXYHdwH90GJQW0LpJJib0ZU/ERtbb0XkBEmUD2eJtagbOie3pdMiPg==
+  version "1.4.192"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.192.tgz#fac050058b3e0713b401a1088cc579e14c2ab165"
+  integrity sha512-8nCXyIQY9An88NXAp+PuPy5h3/w5ZY7Iu2lag65Q0XREprcat5F8gKhoHsBUnQcFuCRnmevpR8yEBYRU3d2HDw==
 
 emmet@^2.3.0:
   version "2.3.6"
@@ -3069,9 +3069,9 @@ reusify@^1.0.4:
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
 rollup@^2.59.0, rollup@^2.75.6:
-  version "2.76.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.76.0.tgz#c69fe03db530ac53fcb9523b3caa0d3c0b9491a1"
-  integrity sha512-9jwRIEY1jOzKLj3nsY/yot41r19ITdQrhs+q3ggNWhr9TQgduHqANvPpS32RNpzGklJu3G1AJfvlZLi/6wFgWA==
+  version "2.77.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.77.0.tgz#749eaa5ac09b6baa52acc076bc46613eddfd53f4"
+  integrity sha512-vL8xjY4yOQEw79DvyXLijhnhh+R/O9zpF/LEgkCebZFtb6ELeN9H3/2T0r8+mp+fFTBHZ5qGpOpW2ela2zRt3g==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -3806,9 +3806,9 @@ yocto-queue@^0.1.0:
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
 zod@^3.17.3:
-  version "3.17.3"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.17.3.tgz#86abbc670ff0063a4588d85a4dcc917d6e4af2ba"
-  integrity sha512-4oKP5zvG6GGbMlqBkI5FESOAweldEhSOZ6LI6cG+JzUT7ofj1ZOC0PJudpQOpT1iqOFpYYtX5Pw0+o403y4bcg==
+  version "3.17.5"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.17.5.tgz#50392d6e801c2e3a913155538c254401718a6ab6"
+  integrity sha512-La5nhC8xGXEQBUohQq7e9R16yXQHjLfIa91wKQrbstTXA/GbAPGtiY2e/F05shumw+W0s3ms+R6LoIWGcMvJ4A==
 
 zwitch@^2.0.0:
   version "2.0.2"
