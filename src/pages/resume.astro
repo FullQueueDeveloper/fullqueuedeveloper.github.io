@@ -19,6 +19,7 @@ import SecondaryLink from '@elements/SecondaryLink.astro';
 
 import ToolsSection from '@sections/ToolsSection/ToolsSection.astro';
 import ProjectsSection from '@sections/ProjectsSection.astro';
+import PullRequests from '@sections/PullRequests/index.astro';
 ---
 <BaseLayout title="Résumé">
 
@@ -95,6 +96,11 @@ import ProjectsSection from '@sections/ProjectsSection.astro';
   <Section id="published">
     <H2>Published projects</H2>
 
+    <P><Link href="https://underway.nyc">Underway NYC</Link> is the best subway app for underground decision making in New York City. Average rating of 4.5 stars. Published for <Link href="https://apps.apple.com/app/id1118548566">iOS</Link> and <Link href="https://play.google.com/store/apps/details?id=nyc.underway.underway">Android</Link>.</P>
+
+    <P><Link href="https://fullqueuedeveloper.com/haptics-studio">Haptics Studio</Link> is the easist way to discover the best haptic wave on your iPhone. Featured in <Link href="https://iosdevweekly.com/issues/563#RR1Nrdp">iOS Dev Weekly</Link>!</P>
+
+    <P><Link href="https://fullqueuedeveloper.com">FullQueueDeveloper</Link> is a coding live stream. We share our expertise. And when we don't know something, we figure it out. Live on <Link href="https://twitch.tv/fullqueuedeveloper">Twitch</Link>, VODs on <Link href="https://www.youtube.com">YouTube</Link>.</P>
 
   </Section>
 
@@ -104,7 +110,7 @@ import ProjectsSection from '@sections/ProjectsSection.astro';
   <Section>
     <H2>Merged open source pull requests</H2>
 
-
+    <PullRequests/>
   </Section>
 
   <Section>

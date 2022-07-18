@@ -1,0 +1,67 @@
+[
+  {
+    "url": "https://github.com/vapor/redis/pull/120",
+    "repo": "vapor/redis",
+    "pr": "120"
+  },
+  {
+    "url": "https://github.com/vapor/redis/pull/178",
+    "repo": "vapor/redis",
+    "pr": "178"
+  },
+  {
+    "url": "https://github.com/vapor/sql-kit/pull/122",
+    "repo": "vapor/sql-kit",
+    "pr": "122"
+  },
+  {
+    "url": "https://github.com/scinfu/SwiftSoup/pull/78",
+    "repo": "scinfu/SwiftSoup",
+    "pr": "78"
+  },
+  {
+    "url": "https://github.com/Nirma/UIDeviceComplete/pull/38",
+    "repo": "Nirma/UIDeviceComplete",
+    "pr": "38"
+  },
+  {
+    "url": "https://github.com/apple/swift/pull/16435",
+    "repo": "apple/swift",
+    "pr": "16435"
+  },
+  {
+    "url": "https://github.com/1024jp/GzipSwift/pull/23",
+    "repo": "1024jp/GzipSwift",
+    "pr": "23"
+  },
+  {
+    "url": "https://github.com/ansible/ansible/pull/28145",
+    "repo": "ansible/ansible",
+    "pr": "28145"
+  },
+  {
+    "url": "https://github.com/digitalocean/terraform-provider-digitalocean/pull/290",
+    "repo": "digitalocean/terraform-provider-digitalocean",
+    "pr": "290"
+  },
+  {
+    "url": "https://github.com/fastlane/fastlane/pull/3872",
+    "repo": "fastlane/fastlane",
+    "pr": "3872"
+  },
+  {
+    "url": "https://gitlab.com/Mordil/RediStack/-/merge_requests/163",
+    "repo": "Mordil/RediStack",
+    "pr": "163"
+  },
+  {
+    "url": "https://github.com/matrix-org/matrix-ios-sdk/pull/1353",
+    "repo": "matrix-org/matrix-ios-sdk",
+    "pr": "1353"
+  },
+  {
+    "url": "https://github.com/vapor/jwt-kit/pull/66",
+    "repo": "vapor/jwt-kit",
+    "pr": "66"
+  }
+]

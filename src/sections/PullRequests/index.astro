@@ -1,0 +1,16 @@
+---
+import pullRequests from '@data/pull-requests.json';
+import List from '@elements/List.astro';
+import Link from '@elements/Link.astro';
+import ListItem from '@elements/ListItem.astro';
+---
+
+<List>
+{
+  pullRequests.map((pr) => (
+    <ListItem>
+      <Link href={pr.url}>{pr.repo}#{pr.pr}</Link>
+    </ListItem>
+  ))
+}
+</List>
