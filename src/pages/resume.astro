@@ -43,6 +43,7 @@ import PullRequests from '@sections/PullRequests/index.astro';
       <ListItemMeta><LinkMeta href="#reviews">Reviews</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#tools">Current tools</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#expertise">Expertise</LinkMeta></ListItemMeta>
+      <ListItemMeta><LinkMeta href="experience">Experience</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#education">Education</LinkMeta></ListItemMeta>
     </List>
   </SectionMeta>
@@ -171,8 +172,42 @@ import PullRequests from '@sections/PullRequests/index.astro';
 
   </Section>
 
-  <Section>
+  <Section id="experience">
     <H2>Experience</H2>
+
+    <List>
+      <ListItem>
+        <Link href="https://stash.com/">Stash</Link> (January 2020 - November 2021)
+
+        <List level="1">
+
+          <ListItem>Tech-lead for referral program across Ruby backend, web, Android and iOS</ListItem>
+          <ListItem>Converted monolithic services to microservices, using Ruby on Rails, Kafka,
+            HTML/CSS and Docker
+          </ListItem>
+          <ListItem>Built social financial site at crew.stash.com using React & Ruby on Rails</ListItem>
+          <ListItem>Mentored colleagues learning to develop on iOS.</ListItem>
+          <ListItem>Dependency management for iOS app using <Link
+              href="https://github.com/yonaskolb/Mint">Mint</Link>,
+            cocoapods, & <Link href="https://github.com/yonaskolb/XcodeGen">Xcodegen</Link></ListItem>
+        </List>
+      </ListItem>
+
+
+      <ListItem>
+      <Link href="https://getgrowflow.com/" >GrowFlow</Link> (August 2019 - September 2019)
+      <List level="1">
+        <ListItem>Embedded GrowFlow's existing webapp into a WKWebView with native login
+          screen</ListItem>
+        <ListItem>Integrated native Zebra and Star Micronics SDKs to print over BlueTooth,
+          USB, and WiFi from
+          iPad.
+        </ListItem>
+        <ListItem>Converted PDFs to native CoreGraphics bitmaps to print receipts and package
+          labels</ListItem>
+      </List>
+      </ListItem>
+    </List>
 
   </Section>
 
