@@ -20,6 +20,7 @@ import SecondaryLink from '@elements/SecondaryLink.astro';
 import ToolsSection from '@sections/ToolsSection/index.astro';
 import ProjectsSection from '@sections/ProjectsSection.astro';
 import PullRequests from '@sections/PullRequests/index.astro';
+import ExperienceSection from '@sections/ExperienceSection/index.astro';
 ---
 <BaseLayout title="Résumé">
 
@@ -43,7 +44,7 @@ import PullRequests from '@sections/PullRequests/index.astro';
       <ListItemMeta><LinkMeta href="#reviews">Reviews</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#tools">Current tools</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#expertise">Expertise</LinkMeta></ListItemMeta>
-      <ListItemMeta><LinkMeta href="experience">Experience</LinkMeta></ListItemMeta>
+      <ListItemMeta><LinkMeta href="#experience">Experience</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#education">Education</LinkMeta></ListItemMeta>
     </List>
   </SectionMeta>
@@ -172,6 +173,8 @@ import PullRequests from '@sections/PullRequests/index.astro';
 
   </Section>
 
+  <ExperienceSection />
+<!--
   <Section id="experience">
     <H2>Experience</H2>
 
@@ -196,21 +199,27 @@ import PullRequests from '@sections/PullRequests/index.astro';
 
 
       <ListItem>
-      <Link href="https://getgrowflow.com/" >GrowFlow</Link> (August 2019 - September 2019)
-      <List level="1">
-        <ListItem>Embedded GrowFlow's existing webapp into a WKWebView with native login
-          screen</ListItem>
-        <ListItem>Integrated native Zebra and Star Micronics SDKs to print over BlueTooth,
-          USB, and WiFi from iPad.
-        </ListItem>
-        <ListItem>Coordinated on-device capabilities such as BlueTooth and local storage to enable their React webapp to connect and reconnect to receipt and label printers.</ListItem>
-        <ListItem>Converted PDFs to native CoreGraphics bitmaps to print receipts and package
-          labels</ListItem>
-      </List>
+        <Link href="https://growflow.com">GrowFlow</Link> (August 2019 - September 2019)
+        <List level="1">
+          <ListItem>Embedded GrowFlow's existing webapp into a WKWebView with native login
+            screen</ListItem>
+          <ListItem>Integrated native Zebra and Star Micronics SDKs to print over BlueTooth,
+            USB, and WiFi from iPad.
+          </ListItem>
+          <ListItem>Coordinated on-device capabilities such as BlueTooth and local storage to enable their React webapp to connect and reconnect to receipt and label printers.</ListItem>
+          <ListItem>Converted PDFs to native CoreGraphics bitmaps to print receipts and package labels</ListItem>
+        </List>
       </ListItem>
+
+
+      <ListItem Stash Invest
+      Consultant with Dan Ramteke Consulting Inc.
+      September 2018 - April 2019
+      Used Swift in Viper architecture. Aided with Apptimize, AppsFlyer and Branch integrations. Also helped with referrals, Mixpanel and Braze for the Growth team.
+
     </List>
 
-  </Section>
+  </Section> -->
 
   <Section>
     <H2>Education</H2>

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Full Queue Developer",
+    "url": "https://fullqueuedeveloper.com",
+    "capacity": "Live stream on Twitch",
+    "timeframe": "April 2022 - Present",
+    "items": [
+      "Featured in [iOS Dev Weekly](https://iosdevweekly.com/issues/563#tools)!",
+      "Built Haptics Studio using SwiftUI, which helps you discover the perfect customized haptics for your app",
+      "Answer viewers programming question",
+      "Every weekday at 2pm NYC time."
+    ]
+  },
+
+  {
+    "name": "Daring Bit Assembly",
+    "url": "https://www.dbadbadba.com",
+    "capacity": "Consultant",
+    "timeframe": "February 2022 - March 2022",
+    "items": [
+      "Aided in their client project by porting open source framework away from Realm to GRDB.",
+      "Objective-C interacting with new Swift code.",
+      "Worked quickly to meet their client's deadline, updating frequently"
+    ]
+  },
+
+  {
+    "name": "Stash",
+    "url": "https://stash.com",
+    "capacity": "Full-time employee",
+    "timeframe": "January 2020 - November 2021",
+    "items": [
+      "Tech-lead for a referral rewards program across backend, web, Android, and iOS",
+      "Mentored colleagues learning to develop on iOS.",
+      "Experimental social financial site at crew.stash.com using React & Ruby on Rails",
+      "Converted monolithic services to microservices, using Ruby on Rails, Kafka, HTML/CSS and Docker",
+      "iOS developr ependency management using Mint, Cocoapods, & Xcodegen",
+      "Native iOS screens and architecture for onboarding overhaul"
+    ]
+  },
+
+  {
+    "name": "GrowFlow",
+    "url": "https://growflow.com",
+    "capacity": "Consultant with Dan Ramteke Consulting Inc & TopTal.com",
+    "timeframe": "August 2019 - September 2019",
+    "items": [
+      "Embedded GrowFlow's existing webapp into a `WKWebView` with native login screen",
+      "Coordinated on-device capabilities such as BlueTooth and local storage to enable their React webapp to connect and reconnect to receipt and label printers.",
+      "Integrated native Zebra and Star Micronics SDKs to print over BlueTooth, USB, and WiFi from iPad.",
+      "Converted PDFs to native CoreGraphics bitmaps to print receipts and package labels"
+    ],
+    "platform": "iOS"
+  },
+  {
+    "name": "Stash",
+    "url": "https://stash.com",
+    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "timeframe": "September 2018 - April 2019",
+    "items": [
+      "Took ownership of investigating a launch bug that involved AppsFlyer and concurrent threads which resulted in potential 10 second launch times. The fix I architected resulted in a 10% increase in registrations.",
+      "Aided with Braze, Mixpanel, Apptimize, AppsFlyer, and Branch integrations.",
+      "Migrated from Branch to AppsFlyer"
+    ],
+    "platform": "iOS"
+  }
+]

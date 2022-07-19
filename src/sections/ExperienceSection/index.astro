@@ -1,0 +1,28 @@
+---
+import experience from '@data/timeline.json';
+import Link from '@elements/Link.astro';
+import H2 from '@elements/H2.astro';
+import List from '@elements/List.astro';
+import ListItem from '@elements/ListItem.astro';
+import P from '@elements/P.astro';
+import Section from '@elements/Section.astro';
+import SecondaryLink from '@elements/SecondaryLink.astro';
+import { Markdown } from 'astro/components';
+---
+<Section id="experience">
+  <H2>Experience</H2>
+
+  <List>
+    {experience.map(x => (
+    <ListItem>
+      <Link href={x.url}>{x.name}</Link> ({x.timeframe})
+      <List level="1">
+        {x.items.map(item => (
+        <ListItem><span class="prose">{item}</span></ListItem>
+        ))}
+      </List>
+    </ListItem>
+  ))
+  }
+  </List>
+</Section>
