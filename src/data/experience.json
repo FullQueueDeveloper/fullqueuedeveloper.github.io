@@ -5,7 +5,7 @@
     "capacity": "Live stream on Twitch",
     "timeframe": "April 2022 - Present",
     "items": [
-      "Featured in [iOS Dev Weekly](https://iosdevweekly.com/issues/563#tools)!",
+      "Featured in [iOS Dev Weekly](https://iosdevweekly.com/issues/563#RR1Nrdp)!",
       "Built [Haptics Studio](https://apps.apple.com/app/id1624792731) using SwiftUI, which helps you discover the perfect customized haptics for your app",
       "Answer viewers' programming questions",
       "Consistent schedule of every weekday at 2pm NYC time."
@@ -66,8 +66,8 @@
   },
   {
     "name": "CoinMarketCap",
-    "capacity": "Consultant ",
-    "timeline": "August 2017 - August 2018",
+    "capacity": "Freelancer",
+    "timeframe": "August 2017 - August 2018",
     "items": [
       "Built first iOS app according to the provided designs.",
       "Implemented currency conversion and currency formatting."
@@ -78,7 +78,7 @@
   {
     "name": "Stash",
     "url": "https://stash.com",
-    "capacity": "Consultant ",
+    "capacity": "Consultant",
     "timeframe": "July 2017 - October 2017",
     "items": [
       "Massive iOS app rewrite from Objective-C with MVC architecture to Swift with VIPER architecture with improved testability.",
@@ -90,7 +90,7 @@
   {
     "name": "Pascal Dangin",
     "url": "http://kidscreative.com",
-    "capacity": "Consultant ",
+    "capacity": "Freelancer",
     "timeframe": "August 2016 - May 2017",
     "items": [
       "Added usuability features to existing Objective-C camera app",
@@ -100,7 +100,7 @@
   {
     "name": "Sifftr",
     "url": "http://www.sifftr.com",
-    "capacity": "Consultant ",
+    "capacity": "Freelancer",
     "timeframe": "February 2016 - December 2017",
     "items": [
       "Led team of two designers, two developers to build iOS app using Swift",
@@ -110,7 +110,7 @@
   {
     "name": "Showdown!",
     "url": "http://www.theshowdownapp.com",
-    "capacity": "Consultant ",
+    "capacity": "Freelancer",
     "timeframe": "May 2014 - February 2017",
     "items": [
       "Led team of one developer and one designer",
@@ -119,18 +119,16 @@
       "Migrated the app to Swift from RubyMotion"
     ]
   },
-
   {
     "name": "uSTADIUM",
     "url": "https://www.ustadium.com",
-    "capacity": "Consultant ",
+    "capacity": "Freelancer",
     "timeframe": "August 2015 - December 2015",
     "items": [
       "Used Parse and Objective-C to help deliver UI improvements and a new feature: daily fantasy.",
       "Users of the app loved the changes!"
     ]
   },
-
   {
     "name": "Blinkbuggy",
     "url": "http://www.blinkbuggy.com",
@@ -150,6 +148,95 @@
       "Engaged in hiring process, interviewing, and reviewing code tests",
       "Full client project list to come"
     ]
+  },
+  {
+    "name": "Peter Russo Design",
+    "url": "http://www.prussodesign.com",
+    "capacity": "Cyrus Innovation",
+    "timeframe": "Summer 2013 - Fall 2013",
+    "items": [
+      "Used `CoreBluetooth`, `MapKit`, and RubyMotion to deliver an iPhone app to control mechanical components for a prototype automobile project."
+    ]
+  },
+  {
+    "name": "BazaarVoice",
+    "url": "http://response.bazaarvoice.com/",
+    "capacity": "Cyrus Innovation",
+    "timeframe": "Fall 2012 - Spring 2013",
+    "items": [
+      "Used AngularJS, Dropwizard, Elastic Search, and AWS automation to deliver internal tools"
+    ]
+  },
+  {
+    "name": "For the Makers",
+    "url": "http://forthemakers.com/",
+    "capacity": "Cyrus Innovation",
+    "timeframe": "Summer 2012",
+    "items": ["Contributed to a small ecommerce website using Ruby on Rails"]
+  },
+  {
+    "name": "Make Love Not Porn",
+    "url": "http://www.makelovenotporn.tv/",
+    "capacity": "Cyrus Innovation",
+    "timeframe": "Summer 2012",
+    "items": ["Used Ruby and Rails to help with video encoding and admin pages"]
+  },
+  {
+    "name": "Simon and Schuster",
+    "url": "http://www.simonandschuster.com/",
+    "capacity": "Cyrus Innovation",
+    "timeframe": "Fall 2011 - Spring 2012",
+    "items": [
+      "Delivered features as an integrated member of their Ruby on Rails development team. Features include new search results page, typeahead search, and PowerReviews integration."
+    ]
+  },
+  {
+    "name": "TheLadders",
+    "url": "http://www.theladders.com/",
+    "capacity": "Cyrus Innovation",
+    "timeframe": "Spring, Summer 2011",
+    "items": [
+      "Added features and fixed bugs for their marketing-focused CMS using Java"
+    ]
+  },
+  {
+    "name": "Federal Reserve Bank of NY",
+    "url": "https://www.newyorkfed.org",
+    "capacity": "Cyrus Innovation",
+    "timeframe": "Winter 2011",
+    "items": [
+      "Developed a document sharing platform in JRuby on Rails, in addition to other maintenance and bug fixes"
+    ]
+  },
+  {
+    "name": "Boston Capital (Lexingon Solutions)",
+    "url": "http://lexington-solutions.com/",
+    "capacity": "Cyrus Innovation",
+    "timeframe": "Spring 2009 - 2010",
+    "items": [
+      "Built their core asset management system using Webwork, Hibernate, Tomcat, and Pico.",
+      "Migrated new client databases into Fusion.",
+      "Setup a VMware TeamCity continuous integration instance."
+    ]
+  },
+  {
+    "name": "ICorrect.com",
+    "url": "icorrect.com",
+    "capacity": "Cyrus Innovation",
+    "timeframe": "Summer 2008",
+    "items": [
+      "Used Ruby, Rails, Rspec, Selenium, and MySql to build a custom CMS."
+    ]
+  },
+  {
+    "name": "Kaplan Test Prep",
+    "url": "http://kaplan.com/",
+    "capacity": "Cyrus Innovation",
+    "timeframe": "Summer 2007 - Winter 2009",
+    "items": [
+      "Aided in Agile conversion as an embedded team.",
+      "Built out their revenue recognition system and their drop shipping system using SpringMVC, Hibernate, Selenium, Dojo, and Fit.",
+      "Maintained their legacy CSR apps."
+    ]
   }
 ]
-
