@@ -6,9 +6,9 @@
     "timeframe": "April 2022 - Present",
     "items": [
       "Featured in [iOS Dev Weekly](https://iosdevweekly.com/issues/563#tools)!",
-      "Built Haptics Studio using SwiftUI, which helps you discover the perfect customized haptics for your app",
-      "Answer viewers programming question",
-      "Every weekday at 2pm NYC time."
+      "Built [Haptics Studio](https://apps.apple.com/app/id1624792731) using SwiftUI, which helps you discover the perfect customized haptics for your app",
+      "Answer viewers' programming questions",
+      "Consistent schedule of every weekday at 2pm NYC time."
     ]
   },
 
@@ -42,7 +42,7 @@
   {
     "name": "GrowFlow",
     "url": "https://growflow.com",
-    "capacity": "Consultant with Dan Ramteke Consulting Inc & TopTal.com",
+    "capacity": "Consultant",
     "timeframe": "August 2019 - September 2019",
     "items": [
       "Embedded GrowFlow's existing webapp into a `WKWebView` with native login screen",
@@ -55,7 +55,7 @@
   {
     "name": "Stash",
     "url": "https://stash.com",
-    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "capacity": "Consultant",
     "timeframe": "September 2018 - April 2019",
     "items": [
       "Took ownership of investigating a launch bug that involved AppsFlyer and concurrent threads which resulted in potential 10 second launch times. The fix I architected and implemented resulted in a ~10% increase in registrations.",
@@ -66,7 +66,7 @@
   },
   {
     "name": "CoinMarketCap",
-    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "capacity": "Consultant ",
     "timeline": "August 2017 - August 2018",
     "items": [
       "Built first iOS app according to the provided designs.",
@@ -78,7 +78,7 @@
   {
     "name": "Stash",
     "url": "https://stash.com",
-    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "capacity": "Consultant ",
     "timeframe": "July 2017 - October 2017",
     "items": [
       "Massive iOS app rewrite from Objective-C with MVC architecture to Swift with VIPER architecture with improved testability.",
@@ -90,7 +90,7 @@
   {
     "name": "Pascal Dangin",
     "url": "http://kidscreative.com",
-    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "capacity": "Consultant ",
     "timeframe": "August 2016 - May 2017",
     "items": [
       "Added usuability features to existing Objective-C camera app",
@@ -100,7 +100,7 @@
   {
     "name": "Sifftr",
     "url": "http://www.sifftr.com",
-    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "capacity": "Consultant ",
     "timeframe": "February 2016 - December 2017",
     "items": [
       "Led team of two designers, two developers to build iOS app using Swift",
@@ -110,8 +110,8 @@
   {
     "name": "Showdown!",
     "url": "http://www.theshowdownapp.com",
-    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
-    "timeframe": "May 2015 - February 2017",
+    "capacity": "Consultant ",
+    "timeframe": "May 2014 - February 2017",
     "items": [
       "Led team of one developer and one designer",
       "Used Swift and Rails to help design and deliver a contest-driven photo sharing app.",
@@ -123,11 +123,30 @@
   {
     "name": "uSTADIUM",
     "url": "https://www.ustadium.com",
-    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "capacity": "Consultant ",
     "timeframe": "August 2015 - December 2015",
     "items": [
       "Used Parse and Objective-C to help deliver UI improvements and a new feature: daily fantasy.",
       "Users of the app loved the changes!"
+    ]
+  },
+
+  {
+    "name": "Blinkbuggy",
+    "url": "http://www.blinkbuggy.com",
+    "capacity": "Freelance iOS Developer",
+    "timeframe": "February 2014 - June 2014",
+    "items": ["Used Objective-C and Rails to further improve their app"]
+  },
+  {
+    "name": "Cyrus Innovation LLC.",
+    "timeframe": "July 2007 - February 2014",
+    "url": "https://cyrusinnovation.com",
+    "capacity": "Senior Agile Developer",
+    "items": [
+      "Built an internal mailing list server in Python, Cyrus Lists, allowing co-workers to self-manage mailing list subscriptions, before Slack was popular.",
+      "Launched a Planning Poker iPhone app on the App Store.",
+      "Launched I'm Late iPhone app using RubyMotion."
     ]
   }
 ]
