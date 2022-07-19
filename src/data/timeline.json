@@ -106,5 +106,28 @@
       "Led team of two designers, two developers to build iOS app using Swift",
       "Integrated the Twitter SDK."
     ]
+  },
+  {
+    "name": "Showdown!",
+    "url": "http://www.theshowdownapp.com",
+    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "timeframe": "May 2015 - February 2017",
+    "items": [
+      "Led team of one developer and one designer",
+      "Used Swift and Rails to help design and deliver a contest-driven photo sharing app.",
+      "Maintained the original RubyMotion version of the app",
+      "Migrated the app to Swift from RubyMotion"
+    ]
+  },
+
+  {
+    "name": "uSTADIUM",
+    "url": "https://www.ustadium.com",
+    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "timeframe": "August 2015 - December 2015",
+    "items": [
+      "Used Parse and Objective-C to help deliver UI improvements and a new feature: daily fantasy.",
+      "Users of the app loved the changes!"
+    ]
   }
 ]

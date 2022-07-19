@@ -15,7 +15,8 @@ import { Markdown } from 'astro/components';
   <List>
     {experience.map(x => (
     <ListItem>
-      <Link href={x.url}>{x.name}</Link> ({x.timeframe})
+      <Link href={x.url}>{x.name}</Link>
+      <div class="">{x.capacity}, {x.timeframe}</div>
       <List level="1">
         {x.items.map(item => (
         <ListItem><span class="prose prose-p:inline hover:prose-a:font-bold prose-a:decoration-2  prose-a:decoration-fuchsia-600"><Markdown>{item}</Markdown></span></ListItem>
