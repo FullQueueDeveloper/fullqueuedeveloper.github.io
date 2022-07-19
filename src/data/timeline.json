@@ -63,5 +63,48 @@
       "Migrated from Branch to AppsFlyer"
     ],
     "platform": "iOS"
+  },
+  {
+    "name": "CoinMarketCap",
+    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "timeline": "August 2017 - August 2018",
+    "items": [
+      "Built first iOS app according to the provided designs.",
+      "Implemented currency conversion and currency formatting."
+    ],
+    "platform": "iOS"
+  },
+
+  {
+    "name": "Stash",
+    "url": "https://stash.com",
+    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "timeframe": "July 2017 - October 2017",
+    "items": [
+      "Massive iOS app rewrite from Objective-C with MVC architecture to Swift with VIPER architecture with improved testability.",
+      "Coordinated across with development and business teams to codify the rules around purchase logic, implementing them in Fitnesse tests."
+    ],
+    "platform": "iOS"
+  },
+
+  {
+    "name": "Pascal Dangin",
+    "url": "http://kidscreative.com",
+    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "timeframe": "August 2016 - May 2017",
+    "items": [
+      "Added usuability features to existing Objective-C camera app",
+      "Migration off Parse to new vendor due to Parse end-of-life"
+    ]
+  },
+  {
+    "name": "Sifftr",
+    "url": "http://www.sifftr.com",
+    "capacity": "Consultant with Dan Ramteke Consulting Inc.",
+    "timeframe": "February 2016 - December 2017",
+    "items": [
+      "Led team of two designers, two developers to build iOS app using Swift",
+      "Integrated the Twitter SDK."
+    ]
   }
 ]
