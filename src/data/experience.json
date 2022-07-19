@@ -58,8 +58,8 @@
     "capacity": "Consultant with Dan Ramteke Consulting Inc.",
     "timeframe": "September 2018 - April 2019",
     "items": [
-      "Took ownership of investigating a launch bug that involved AppsFlyer and concurrent threads which resulted in potential 10 second launch times. The fix I architected resulted in a 10% increase in registrations.",
-      "Aided with Braze, Mixpanel, Apptimize, AppsFlyer, and Branch integrations.",
+      "Took ownership of investigating a launch bug that involved AppsFlyer and concurrent threads which resulted in potential 10 second launch times. The fix I architected and implemented resulted in a ~10% increase in registrations.",
+      "Braze, Mixpanel, Apptimize, AppsFlyer, and Branch integrations.",
       "Migrated from Branch to AppsFlyer"
     ],
     "platform": "iOS"
@@ -131,3 +131,4 @@
     ]
   }
 ]
+
