@@ -13,6 +13,16 @@
   },
 
   {
+    "name": "TopTal",
+    "url": "https://toptal.com",
+    "capacity": "Freelancer",
+    "items": [
+      "Designed iPhone app to instantly book technicians to fix home maintenance issues",
+      "Streamlined onboarding flow with camera",
+      "Prototyped in SwiftUI and Sketch"
+    ]
+  },
+  {
     "name": "Daring Bit Assembly",
     "url": "https://www.dbadbadba.com",
     "capacity": "Consultant",
@@ -23,7 +33,6 @@
       "Worked quickly to meet their client's deadline, updating frequently"
     ]
   },
-
   {
     "name": "Stash",
     "url": "https://stash.com",
@@ -35,10 +44,10 @@
       "Experimental social financial site at crew.stash.com using React & Ruby on Rails",
       "Converted monolithic services to microservices, using Ruby on Rails, Kafka, HTML/CSS and Docker",
       "iOS developr ependency management using Mint, Cocoapods, & Xcodegen",
-      "Native iOS screens and architecture for onboarding overhaul"
+      "Native iOS screens and architecture for onboarding overhaul",
+      "Interviewed candidates for senior roles"
     ]
   },
-
   {
     "name": "GrowFlow",
     "url": "https://growflow.com",
