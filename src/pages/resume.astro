@@ -7,8 +7,7 @@ import LinkMeta from '@elements/meta/Link.astro';
 import H1 from '@elements/H1.astro';
 import H2 from '@elements/H2.astro';
 import H2Meta from '@elements/meta/H2.astro';
-import H3 from '@elements/H3.astro';
-import H4 from '@elements/H4.astro';
+
 import List from '@elements/List.astro';
 import ListItem from '@elements/ListItem.astro';
 import ListItemMeta from '@elements/meta/ListItem.astro';
@@ -38,13 +37,13 @@ import ExperienceSection from '@sections/ExperienceSection/index.astro';
     <List>
       <ListItemMeta><LinkMeta href="#press">Press coverage</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#active">Active projects</LinkMeta></ListItemMeta>
-      <ListItemMeta><LinkMeta href="#published">Published projects</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#prs">Merged open source pull requests</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#testimonials">Testimonials</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#reviews">Reviews</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#tools">Current tools</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#expertise">Expertise</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#experience">Experience</LinkMeta></ListItemMeta>
+      <ListItemMeta><LinkMeta href="#conferences">Conferences</LinkMeta></ListItemMeta>
       <ListItemMeta><LinkMeta href="#education">Education</LinkMeta></ListItemMeta>
     </List>
   </SectionMeta>
@@ -95,7 +94,20 @@ import ExperienceSection from '@sections/ExperienceSection/index.astro';
 
   </Section>
 
-  <ProjectsSection />
+  <Section id="active">
+    <H2>Active projects</H2>
+    <List>
+      <ListItem>
+        <Link href="https://fullqueuedeveloper.com">FullQueueDeveloper</Link> Daily creative narrated programming live stream on Twitch.
+      </ListItem>
+      <ListItem>
+        <Link href="https://underway.nyc">Underway NYC</Link> Real-time data to make decisions while on the way. Underway NYC is for the here and now underground. For iOS and Android.
+      </ListItem>
+      <ListItem>
+        <Link href="https://github.com/FullQueueDeveloper/Sh.git">Sh</Link> The best way to run shell commands from Swift
+      </ListItem>
+    </List>
+  </Section>
 
   <Section>
     <H2>Merged open source pull requests</H2>
