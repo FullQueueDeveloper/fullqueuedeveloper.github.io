@@ -130,6 +130,15 @@
     ]
   },
   {
+    "name": "Newsela",
+    "capacity": "Consultant",
+    "timeframe": "February 2015 - June 2015",
+    "items": [
+      "Used Swift and UIKit to create the first version of their iOS app",
+      "Worked with their in-house design and backend teams, as well as their newly-hired iOS engineer."
+    ]
+  },
+  {
     "name": "Blinkbuggy",
     "url": "http://www.blinkbuggy.com",
     "capacity": "Freelance iOS Developer",
